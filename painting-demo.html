@@ -1,0 +1,20 @@
+<head>
+  <title>painting-demo</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="painting demo">
+  <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+</head>
+
+<body>
+  {{>huddleCanvas}}
+</body>
+
+<template name="huddleCanvas">
+	<div id="huddle-canvas-container">
+  		<canvas id="drawing-canvas"></canvas>
+	</div>
+	<div id="controls">
+		<div id="stroke-value">STROKE WIDTH: 10</div>
+		<input id="stroke-select" type="range" name="points" min="1" max="100" value="10">
+	</div>
+</template>

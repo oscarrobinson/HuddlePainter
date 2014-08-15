@@ -1,0 +1,9 @@
+/* CSS declarations go here */
+.canvas-container{
+	z-index:1000;
+}
+
+#controls{
+	position:fixed;
+	width:200px;
+}
